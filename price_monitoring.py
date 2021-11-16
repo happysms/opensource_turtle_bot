@@ -23,27 +23,27 @@ with open('config.json', 'r', encoding="UTF-8") as in_file:
 logger = logger.make_logger("mylogger")
 
 while True:
-    # try:
-    for config in config_list:
-        price_info = get_price_info(config, binance)
-        trading_condition = check_trading_condition(config, price_info)
-        print(price_info)
-        if trading_condition == "enter_long":
-            enter_position(binance, config['symbol'], "long", price_info['max_price'])
-            config['info']['position'] = "long"
+    try:
+        for config in config_list:
+            price_info = get_price_info(config, binance)
+            trading_condition = check_trading_condition(config, price_info)
 
-        elif trading_condition == "enter_short":
-            enter_position(binance, config['symbol'], "short", price_info['max_price'])
-            config['info']['position'] = "short"
+            if trading_condition == "enter_long":
+                enter_position(binance, config['symbol'], "long", price_info['max_price'])
+                config['info']['position'] = "long"
 
-        elif trading_condition == "exit_long":
-            exit_position(binance, config['symbol'], "long", price_info['long_exit_price'])
-            config['info']['position'] = None
+            elif trading_condition == "enter_short":
+                enter_position(binance, config['symbol'], "short", price_info['max_price'])
+                config['info']['position'] = "short"
 
-        elif trading_condition == "exit_short":
-            exit_position(binance, config['symbol'], "short", price_info['short_exit_price'])
-            config['info']['position'] = None
+            elif trading_condition == "exit_long":
+                exit_position(binance, config['symbol'], "long", price_info['long_exit_price'])
+                config['info']['position'] = None
 
-    time.sleep(0.5)
-    # except Exception as e:
-    #     logger.error(e)
+            elif trading_condition == "exit_short":
+                exit_position(binance, config['symbol'], "short", price_info['short_exit_price'])
+                config['info']['position'] = None
+
+        time.sleep(0.5)
+    except Exception as e:
+        logger.error(e)
