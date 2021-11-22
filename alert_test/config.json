@@ -1,0 +1,92 @@
+[
+	{
+		"symbol": "BTC/USDT",
+		"info": {
+			"enter": 5,
+			"exit": 3,
+			"position": null,
+			"is_start": false
+		}
+	},
+	{
+		"symbol": "ETH/USDT",
+		"info": {
+			"enter": 10,
+			"exit": 5,
+			"position": null,
+			"is_start": false
+		}
+	},
+	{
+		"symbol": "XRP/USDT",
+		"info": {
+			"enter": 7,
+			"exit": 4,
+			"position": null,
+			"is_start": false
+		}
+	},
+	{
+		"symbol": "ADA/USDT",
+		"info": {
+			"enter": 7,
+			"exit": 4,
+			"position": null,
+			"is_start": false
+		}
+	},
+	{
+		"symbol": "DOGE/USDT",
+		"info": {
+			"enter": 5,
+			"exit": 3,
+			"position": null,
+			"is_start": false
+		}
+	},
+	{
+		"symbol": "ETC/USDT",
+		"info": {
+			"enter": 5,
+			"exit": 3,
+			"position": null,
+			"is_start": false
+		}
+	},
+	{
+		"symbol": "BCH/USDT",
+		"info": {
+			"enter": 5,
+			"exit": 3,
+			"position": null,
+			"is_start": false
+		}
+	},
+	{
+		"symbol": "TRX/USDT",
+		"info": {
+			"enter": 7,
+			"exit": 4,
+			"position": null,
+			"is_start": false
+		}
+	},
+	{
+		"symbol": "ATOM/USDT",
+		"info": {
+			"enter": 7,
+			"exit": 4,
+			"position": null,
+			"is_start": false
+		}
+	},
+	{
+		"symbol": "QTUM/USDT",
+		"info": {
+			"enter": 5,
+			"exit": 3,
+			"position": null,
+			"is_start": true
+		}
+	}
+]

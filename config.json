@@ -1,92 +1,11 @@
-[
-	{
-		"symbol": "BTC/USDT",
-		"info": {
-			"enter": 5,
-			"exit": 3,
-			"position": null,
-			"dollar": 317.772
-		}
-	},
-	{
-		"symbol": "ETH/USDT",
-		"info": {
-			"enter": 10,
-			"exit": 5,
-			"position": null,
-			"dollar": 317.772
-		}
-	},
-	{
-		"symbol": "XRP/USDT",
-		"info": {
-			"enter": 7,
-			"exit": 4,
-			"position": null,
-			"dollar": 317.772
-		}
-	},
-	{
-		"symbol": "ADA/USDT",
-		"info": {
-			"enter": 7,
-			"exit": 4,
-			"position": null,
-			"dollar": 317.772
-		}
-	},
-	{
-		"symbol": "DOGE/USDT",
-		"info": {
-			"enter": 5,
-			"exit": 3,
-			"position": null,
-			"dollar": 317.772
-		}
-	},
-	{
-		"symbol": "ETC/USDT",
-		"info": {
-			"enter": 5,
-			"exit": 3,
-			"position": null,
-			"dollar": 317.772
-		}
-	},
-	{
-		"symbol": "BCH/USDT",
-		"info": {
-			"enter": 5,
-			"exit": 3,
-			"position": null,
-			"dollar": 317.772
-		}
-	},
-	{
-		"symbol": "TRX/USDT",
-		"info": {
-			"enter": 7,
-			"exit": 4,
-			"position": null,
-			"dollar": 317.772
-		}
-	},
-	{
-		"symbol": "ATOM/USDT",
-		"info": {
-			"enter": 7,
-			"exit": 4,
-			"position": null,
-			"dollar": 317.772
-		}
-	},
-	{
-		"symbol": "QTUM/USDT",
-		"info": {
-			"enter": 5,
-			"exit": 3,
-			"position": null,
-			"dollar": 317.772
-		}
-	}
-]
+{
+  "api_key": "binance",
+  "secret": "binance",
+  "host": "db host",
+  "user": "admin",
+  "password": "db password",
+  "db": "db",
+  "AWS_ACCESS_KEY_ID" : "aws",
+  "AWS_SECRET_ACCESS_KEY": "aws",
+  "AWS_DEFAULT_REGION": "aws"
+}
